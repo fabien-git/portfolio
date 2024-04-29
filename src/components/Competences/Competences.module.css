@@ -11,7 +11,7 @@ padding-bottom: 50px;
 
 
 .container{
-  width: 1200px;
+  width: 100vw;
   margin: 0 auto;
 }
 
@@ -32,7 +32,6 @@ padding-bottom: 50px;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
   padding: 24px;
   background-color: #051B2A;
   border: 1px solid white;
@@ -46,3 +45,17 @@ padding-bottom: 50px;
   width: 60%;
   gap: 16px;
 }
+
+
+@media screen and (max-width: 800px) {
+  .headerFeatures{
+
+    display:none;
+  }
+
+  .competences-flex-content{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+  }

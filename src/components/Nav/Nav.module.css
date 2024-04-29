@@ -18,3 +18,11 @@
   color: #FF3F3F;
   text-decoration: none;
 }
+
+
+@media screen and (max-width: 800px) {
+  .navigation{
+
+    display:none;
+  }
+  }

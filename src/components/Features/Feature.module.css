@@ -8,7 +8,7 @@ padding-bottom: 50px;
 }
 
 .container{
-  width: 1200px;
+
   margin: 0 auto;
 }
 
@@ -50,3 +50,18 @@ max-width: 300px;
 height: 200px;
 background: white;
 }
+
+
+@media screen and (max-width: 800px) {
+  .features-flex{
+flex-direction: column;
+
+  }
+
+  .features-flex-content{
+    width:80%!important;
+
+      }
+
+
+  }
