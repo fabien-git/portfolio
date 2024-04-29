@@ -1,6 +1,9 @@
+.navigationContainer{
+margin: 0 auto;
+}
+
 .navigation{
   position: relative;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,28 +11,62 @@
   margin: 0;
   z-index: 100;
   overflow: hidden;
+
+
+
 }
 
 
 .navigation li {
   list-style: none;
-  padding: 16px;
+  padding: 0px;
   z-index: 10;
+  border-bottom: 1px solid rgb(255, 110, 110);
 
 }
 
 .navigation li a{
+  display: block;
   color: #FF3F3F;
   text-decoration: none;
   font-size: 22px;
   font-weight: 400;
   cursor: pointer;
   z-index: 1000;
+  height: 25px;
+  padding: 16px;
+  margin: 0;
 
 }
 
-.navigation li a:hover{
+.navigation li a:hover {
  background-color: white;
+ animation: blink 0.3s forwards;
+ line-height: 10px;
+
+}
+
+@keyframes blink {
+  0%{
+    background-color:red;
+  }
+  10%{
+    background-color: white;
+  }
+ 30%{
+    background-color:red;
+  }
+
+  50%{
+    background-color: white;
+  }
+
+  70%{
+    background-color:red;
+  }
+  100%{
+    background-color: white;
+  }
 
 }
 

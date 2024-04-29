@@ -4,7 +4,12 @@
   padding:8px;
   border: 1px solid white;
   border-radius: 4px;
-  background-color: rgb(87, 10, 10);
+  background-color: rgba(87, 10, 10,0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
 }
 
 .card img{
@@ -20,16 +25,52 @@
 
 .card-content p{
   color: white;
+  margin: 32px 0;
 }
 
 .card-content a{
+
+  width:80%;
   color: white;
   background-color: transparent;
   border: 1px solid white;
-  padding: 4px 8px;
-  margin: 12px 0;
+  padding: 8px 16px;
+  margin: 24px 0;
   text-decoration: none;
 }
+
+
+.card-content a:hover {
+  background-color: white;
+  animation: blink 0.3s forwards;
+
+  color:red;
+
+ }
+
+ @keyframes blink {
+   0%{
+     background-color:red;
+   }
+   10%{
+     background-color: white;
+   }
+  30%{
+     background-color:red;
+   }
+
+   50%{
+     background-color: white;
+   }
+
+   70%{
+     background-color:red;
+   }
+   100%{
+     background-color: white;
+   }
+
+ }
 
 .techno-item{
   background-color: white;
@@ -44,5 +85,6 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 8px;
-  margin: 16px 0;
+  padding-top: 32px ;
+
 }

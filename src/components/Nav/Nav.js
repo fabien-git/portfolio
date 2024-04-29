@@ -3,6 +3,7 @@ import styles from "./Nav.module.css";
 
 const Nav = () => {
   return (
+    <div className={styles.navigationContainer}>
     <ul className={styles.navigation}>
       <li>
         {" "}
@@ -25,6 +26,7 @@ const Nav = () => {
         <a href="#">Contact</a>
       </li>
     </ul>
+    </div>
   );
 };
 
