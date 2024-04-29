@@ -174,3 +174,10 @@ bottom: 0;
       flex-direction: column;
     }
     }
+
+    @media screen and (max-width: 400px) {
+      .header-content  {
+       justify-content: start!important;
+          }
+
+        }
