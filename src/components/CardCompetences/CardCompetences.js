@@ -7,7 +7,7 @@ const CardCompetences = ({ imageUrl, name }) => {
       <img src={imageUrl} alt={`logo ${name}`}/>
       <p>{name}</p>
     </div>
-  );
+   );
 };
 
 export default CardCompetences;

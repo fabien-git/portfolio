@@ -25,3 +25,24 @@ padding-bottom: 50px;
   height: 100%;
   opacity: 0.2;
 }
+
+.competences-flex{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 24px;
+  background-color: #051B2A;
+  border: 1px solid white;
+}
+
+.competences-flex-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+  gap: 16px;
+}
