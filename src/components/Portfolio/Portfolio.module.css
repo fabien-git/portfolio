@@ -1,0 +1,12 @@
+.portfolio{
+  width: 100vw;
+  background: linear-gradient(90deg, rgb(133,46,54) 0%, rgb(199,49,64) 50%, rgb(133,46,54) 100%);
+position: relative;
+padding-bottom: 50px;
+}
+
+
+.container{
+  width: 100vw;
+  margin: 0 auto;
+}

@@ -1,12 +1,13 @@
 import React from "react";
 import Title from "../Title/Title";
 import styles from "./Feature.module.css";
+import aboutme from "../../assets/about.png"
 
 const Features = () => {
   return (
     <div className={styles.features}>
       <div className={styles.container}>
-        <Title />
+        <Title name={"Qui suis-je ?"}/>
         <div className={styles["features-flex"]}>
           <div className={styles["features-flex-content"]}>
             <p>
@@ -18,7 +19,10 @@ const Features = () => {
             pariatur.
             </p>
           </div>
-          <img src="" />
+          <div className={styles["features-flex-image"]}>
+          <img src={aboutme} />
+          </div>
+
         </div>
       </div>
     </div>

@@ -17,8 +17,10 @@ const Competences = () => {
   return (
     <div className={styles.competences}>
       <div className={styles.container}>
-        <Title />
+        <Title name={"Mes compétences"}/>
         <div className={styles["competences-flex"]}>
+        <div className={styles["competences-flex-image"]}>
+        </div>
           <div className={styles["competences-flex-content"]}>
            <Card imageUrl={htmlLogo} name='HTML'/>
            <Card imageUrl={cssLogo} name='CSS'/>

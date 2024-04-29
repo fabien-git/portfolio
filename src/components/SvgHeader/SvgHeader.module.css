@@ -21,7 +21,7 @@
 
 
 .disappear {
-  opacity: 0; /* Définir l'opacité initiale */
+  opacity: 0;
 }
 
 @keyframes animDisappear {

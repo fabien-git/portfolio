@@ -1,16 +1,19 @@
 .card img{
-  width:70px;
-  height: 70px;
+  width:40px;
+  height: 40px;
 }
 
 .card p{
-  color: white
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
 }
 
 .card{
-  padding:12px 24px;
+  padding:12px 8px;
   border: 1px solid white;
   border-radius: 8px;
-  width: 80px;
+  width: 84px;
 
 }
