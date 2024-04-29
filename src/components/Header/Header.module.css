@@ -40,8 +40,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  z-index: 1000;
+  z-index: 2;
   position: relative;
+  z-index: 20;
 }
 
 .header-content h1{
@@ -57,6 +58,8 @@
   margin: 0;
   border-bottom: 1px solid white;
   padding-bottom: 12px;
+  /*margin-top:90px ;*/
+
 
 
 }

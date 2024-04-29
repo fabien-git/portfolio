@@ -1,22 +1,36 @@
 .navigation{
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin: 0;
-  z-index: 1000;
-  position: relative;
+  z-index: 100;
+  overflow: hidden;
 }
+
 
 .navigation li {
   list-style: none;
   padding: 16px;
+  z-index: 10;
+
 }
 
 .navigation li a{
   color: #FF3F3F;
   text-decoration: none;
+  font-size: 22px;
+  font-weight: 400;
+  cursor: pointer;
+  z-index: 1000;
+
+}
+
+.navigation li a:hover{
+ background-color: white;
+
 }
 
 

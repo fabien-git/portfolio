@@ -3,7 +3,8 @@ import Header from "./Header/Header";
 import Features from "./Features/Feature";
 import Competences from "./Competences/Competences";
 import Portfolio from "./Portfolio/Portfolio";
-
+import ContactForm from './ContactForm/ContactForm';
+import Footer from './Footer/Footer';
 import "./index.module.css";
 
 const index = () => {
@@ -13,6 +14,8 @@ const index = () => {
       <Features />
       <Competences />
       <Portfolio />
+      <ContactForm />
+      <Footer />
     </div>
   );
 };
