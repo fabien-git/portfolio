@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "../Title/Title";
+import Card from "../CardCompetences/CardCompetences";
 import styles from "./Competences.module.css";
 
 const Competences = () => {
@@ -8,9 +9,12 @@ const Competences = () => {
       <div className={styles.container}>
         <Title />
         <div className={styles["competences-flex"]}>
-          <img src="" />
-          <div className={styles["competences-flex-content"]}></div>
-          <img src="" />
+
+          <div className={styles["competences-flex-content"]}>
+           <Card imageUrl='../../assets/competences/logo-js.png' name='HTML'/>
+
+          </div>
+
         </div>
       </div>
     </div>
