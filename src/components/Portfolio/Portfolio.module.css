@@ -34,3 +34,10 @@ padding-bottom: 50px;
   position: relative;
   align-items: stretch;
 }
+
+@media screen and (max-width: 800px) {
+  .cards{
+flex-direction: column;
+
+  }
+  }
