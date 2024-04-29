@@ -1,0 +1,40 @@
+.TitleText{
+padding: 8px 16px;
+background-color: white;
+color: red;
+width: 200px;
+font-size: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.square{
+  width: 30px;
+  height: 100%;
+  border: 1px solid white;
+}
+
+.squareMedium{
+  width: 70px;
+  height: 100%;
+  border: 1px solid white;
+}
+
+.squareLonger{
+  width: 120px;
+  height: 100%;
+  border: 1px solid white;
+}
+
+.title{
+  padding-left: 50px;
+  padding-top: 40px;
+  background-color: transparent;
+  display: flex;
+  justify-content: start;
+  gap: 8px;
+  height:40px;
+}
