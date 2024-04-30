@@ -30,7 +30,7 @@ padding-bottom: 50px;
   justify-content: start;
 
   gap:32px;
-  z-index: 1000;
+  z-index: 10;
   position: relative;
   align-items: stretch;
 }

@@ -69,14 +69,14 @@ object-fit: contain;
 
 @media screen and (max-width: 800px) {
   .features-flex{
-flex-direction: column;
-
+    flex-direction: column;
   }
 
-  .features-flex-content{
+.features-flex-content{
     width:80%!important;
-
+}
+      .features-flex-image{
+        width: 80%;
       }
-
 
   }

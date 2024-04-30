@@ -12,14 +12,51 @@ import psqlLogo from '../../assets/competences/logo-psql.png';
 import railsLogo from '../../assets/competences/logo-rails.png';
 import reactLogo from '../../assets/competences/logo-react.png';
 import rubyLogo from '../../assets/competences/logo-ruby2.png';
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import { useEffect, useRef } from "react";
+
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+
+const slideInLeft= (elem, delay, duration) => {
+  gsap.fromTo(
+    elem,
+    {
+      opacity: 0,
+      x: -200,
+    },
+    {
+      opacity: 1,
+      x: 0,
+      scrollTrigger: {
+        trigger: elem,
+        start: "top center",
+        end: "bottom center"
+      }
+    }
+  );
+};
+
+
+
 
 const Competences = () => {
+  const competenceRef = useRef(null);
+
+
+  useEffect(() => {
+    slideInLeft(competenceRef.current, 200, 1000);
+  }, []);
+
+
+
   return (
     <div className={styles.competences}>
       <div className={styles.container}>
         <Title name={"Mes compétences"}/>
         <div className={styles["competences-flex"]}>
-        <div className={styles["competences-flex-image"]}>
+        <div className={styles["competences-flex-image"]} ref={competenceRef}>
         </div>
           <div className={styles["competences-flex-content"]}>
            <Card imageUrl={htmlLogo} name='HTML'/>
