@@ -41,7 +41,7 @@ const CardPortfolio = ({ imageUrl, description, name, url, techno }) => {
 
       <div className={styles['card-content']}>
         <p>{description}</p>
-        <a href={url}>{`Visiter : ${name}`}</a>
+        <a href={url}>{`${name}`}</a>
         <div className={styles.technologies}>
           {techno && techno.length
             ? techno.map((itemTechno) => (
