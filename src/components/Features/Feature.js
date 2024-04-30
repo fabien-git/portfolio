@@ -69,12 +69,22 @@ const Features = () => {
         <div className={styles["features-flex"]}>
           <div className={styles["features-flex-content"]} ref={featuresContentRef}>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+
+
+
+Je m'appelle Fabien et je suis développeur d'applications web,
+ suite à une récente reconversion professionnelle. <br/><br/> Il y a deux ans,
+  j'ai commencé à me former de manière autodidacte sur les langages web.<br/><br/>
+   Par la suite, j'ai récemment intégré la formation Le Wagon afin de structurer mes connaissances
+    et d'acquérir de nouveaux concepts. <br/><br/>
+    Je suis diplômé du Wagon et titulaire du diplôme RNCP niveau 6,
+     confirmant ainsi mes compétences dans le domaine du développement d'applications web.
+     <br/><br/>
+     Je suis maintenant prêt à mettre en pratique mes compétences et ma passion pour le développement d'applications web au sein d'une équipe dynamique. confirmant ainsi mes compétences dans le domaine du développement d'applications web.
+     <br/><br/> N'hésitez pas à me contacter pour discuter de toute opportunité de collaboration ou d'emploi !
+
+
+
             </p>
           </div>
           <div className={styles["features-flex-image"]} ref={featuresImageRef}>
