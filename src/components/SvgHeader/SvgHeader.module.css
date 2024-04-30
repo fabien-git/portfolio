@@ -17,6 +17,7 @@
   stroke: white!important;
   transition: 0.5s all;
   animation: dash 2s forwards;
+  z-index: 1000;
 }
 
 
@@ -111,7 +112,7 @@
 
 .fill-final {
   animation: fill-animation 1s forwards !important;
-    filter: drop-shadow(0 -6mm 50px rgb(255, 255, 255));
+    filter: drop-shadow(0 0mm 0px rgb(255, 255, 255));
   animation-delay: 2s; /* Délai pour commencer après l'animation de tracé */
 }
 
@@ -122,6 +123,6 @@
   }
   to {
     fill: #FFFFFF; /* Couleur de remplissage finale */
-    box-shadow: 0 0 50px rgba(255, 255, 255, 1)!important;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1)!important;
   }
 }

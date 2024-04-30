@@ -18,7 +18,7 @@ const scale= (elem, delay, duration) => {
      scale:1,
       scrollTrigger: {
         trigger: elem,
-        start: "top center",
+        start: "top center ",
         end: "bottom center"
       }
     }

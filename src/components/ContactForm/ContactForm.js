@@ -6,6 +6,8 @@ import Title from "../Title/Title";
 const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [stateMessage, setStateMessage] = useState(null);
+
+
   const sendEmail = (e) => {
     e.persist();
     e.preventDefault();
