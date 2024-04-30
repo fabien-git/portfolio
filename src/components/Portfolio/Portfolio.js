@@ -7,7 +7,7 @@ import PharmacieSalengro from "../../assets/pharmaciesalengro.png"
 
 const Portfolio = () => {
   return (
-    <div className={styles.portfolio}>
+    <div className={styles.portfolio} id="portfolio">
       <div className={styles.container}>
         <Title name={"Mon Portfolio"} />
         <div className={styles.cards}>

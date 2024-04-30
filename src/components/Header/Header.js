@@ -15,6 +15,7 @@ const Header = () => {
   const h2Ref = useRef(null);
 
 
+
   useEffect(() => {
     const tl = gsap.timeline({ delay: 2.5 });
     tl.fromTo(
@@ -40,7 +41,7 @@ const Header = () => {
 
 
   return (
-    <div className={Styles.Header}>
+    <div className={Styles.Header} id="header">
       <Nav />
       <div className={Styles.blueCircle}></div>
       <div className={Styles.headerFeatures} ref={h2Ref}></div>

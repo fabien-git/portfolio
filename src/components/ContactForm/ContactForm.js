@@ -38,7 +38,7 @@ const ContactForm = () => {
     e.target.reset();
   };
   return (
-    <div className={styles.contact}>
+    <div className={styles.contact} id ="form">
       <div className={styles.container}>
         <Title name={"Contactez-moi !"}/>
     <form onSubmit={sendEmail}>

@@ -52,6 +52,7 @@ const Features = () => {
 
   const featuresContentRef = useRef(null);
   const featuresImageRef = useRef(null);
+  const featuresRef = useRef(null);
 
   useEffect(() => {
     slideInLeft(featuresContentRef.current, 200, 1000);
@@ -62,7 +63,7 @@ const Features = () => {
   }, []);
 
   return (
-    <div className={styles.features}>
+    <div className={styles.features} id="feature">
       <div className={styles.container} >
         <Title name={"Qui suis-je ?"} />
         <div className={styles["features-flex"]}>

@@ -8,7 +8,7 @@ z-index: 1000;
 
 .navigation{
   position: relative;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -20,15 +20,50 @@ z-index: 1000;
 
 }
 
+.navigationMobile{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.navigationMobile li {
+  list-style: none;
+  z-index: 10;
+  background-color: rgba(255, 255, 255,0.7);
+}
+
+.navigationMobile li:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+.navigationMobile li:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+
+
+.navigationMobile li a{
+  display: block;
+  color:rgb(4, 3, 85);
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 400;
+  cursor: pointer;
+  z-index: 1000;
+  height: 15px;
+  padding: 16px;
+  margin: 0;
+}
+
 
 .navigation li {
   list-style: none;
-
   z-index: 10;
   background-color: rgba(255, 255, 255,0.7);
-
-
-
 }
 
 .navigation li a{
@@ -45,23 +80,36 @@ z-index: 1000;
 
 }
 
-.navigation li a:hover {
+.navigationMobile li a:hover {
+  background-color: white;
+  animation: blink 0.3s forwards;
+  line-height: 10px;
+ }
+
+
+.navigationMobile li:first-child a:hover {
+  border-bottom-left-radius: 8px;
  background-color: white;
  animation: blink 0.3s forwards;
  line-height: 10px;
+}
 
-
+.navigationMobile li:last-child a:hover {
+  border-bottom-right-radius: 8px;
+ background-color: white;
+ animation: blink 0.3s forwards;
+ line-height: 10px;
 }
 
 @keyframes blink {
   0%{
-    background-color:red;
+    background-color:rgb(4, 3, 85);
   }
   10%{
     background-color: white;
   }
  30%{
-    background-color:red;
+    background-color:rgb(4, 3, 85);
   }
 
   50%{
@@ -69,7 +117,7 @@ z-index: 1000;
   }
 
   70%{
-    background-color:red;
+    background-color:rgb(4, 3, 85);
   }
   100%{
     background-color: white;
@@ -82,5 +130,9 @@ z-index: 1000;
   .navigation{
 
     display:none;
+  }
+
+  .navigationMobile{
+    display:flex;
   }
   }

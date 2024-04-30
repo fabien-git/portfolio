@@ -52,7 +52,7 @@ const Competences = () => {
 
 
   return (
-    <div className={styles.competences}>
+    <div className={styles.competences} id="competences">
       <div className={styles.container}>
         <Title name={"Mes compétences"}/>
         <div className={styles["competences-flex"]}>
