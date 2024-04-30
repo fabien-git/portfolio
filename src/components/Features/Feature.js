@@ -78,9 +78,9 @@ Je m'appelle Fabien et je suis développeur d'applications web,
    Par la suite, j'ai récemment intégré la formation Le Wagon afin de structurer mes connaissances
     et d'acquérir de nouveaux concepts. <br/><br/>
     Je suis diplômé du Wagon et titulaire du diplôme RNCP niveau 6,
-     confirmant ainsi mes compétences dans le domaine du développement d'applications web.
+     confirmant ainsi mes compétences dans le domaine.
      <br/><br/>
-     Je suis maintenant prêt à mettre en pratique mes compétences et ma passion pour le développement d'applications web au sein d'une équipe dynamique. confirmant ainsi mes compétences dans le domaine du développement d'applications web.
+     Je suis maintenant prêt à mettre en pratique mon talent et ma passion pour le développement d'applications web au sein d'une équipe dynamique.
      <br/><br/> N'hésitez pas à me contacter pour discuter de toute opportunité de collaboration ou d'emploi !
 
 
