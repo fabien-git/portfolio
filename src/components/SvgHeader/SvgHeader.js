@@ -31,8 +31,8 @@ const SvgHeader = ({ onAnimationCompleted, onAnimationFinished }) => {
   }, []); //
 
   return (
-    <div className={Styles.SvgHeader}>
-      <svg viewBox="0 0 731 717" preserveAspectRatio="xMidYMid meet">
+    <div className={`${Styles.SvgHeader} ${Styles['svg-container']}`}>
+      <svg viewBox="0 0 731 717" preserveAspectRatio="xMidYEnd meet">
         <path
           className={`${animationStarted ? Styles["path-1"] : ""} ${
             trigger && Styles["fill-final"]

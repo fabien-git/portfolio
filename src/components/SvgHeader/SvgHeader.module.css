@@ -1,4 +1,6 @@
 .path-1{
+  position: absolute;
+  bottom: 0;
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
   fill: transparent;
@@ -10,6 +12,9 @@
 }
 
 .path-2{
+  position: absolute;
+  bottom: 0;
+
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
   fill: transparent;
@@ -55,37 +60,29 @@
 }
 
 .SvgHeader svg {
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width:100%;
+  transform: translateX(-50%);
 
 }
 
-@media screen and (max-width: 600px) {
-  .SvgHeader{
 
-    height: 90%!important;
+@media screen and (min-width: 500px) {
+  .SvgHeader svg{
+    height:100%!important;
   }
   }
 
-  @media screen and (max-width: 450px) {
-    .SvgHeader{
+.svg-container {
+  display: flex;
+  align-items: flex-end; /* Aligne les éléments au bas */
+  justify-content: center; /* Centre horizontalement */
+  width: 100%;
+  height: 100%;
+}
 
-      height: 70%!important;
-    }
-    }
-
-    @media screen and (max-width: 400px) {
-      .SvgHeader{
-        width:100%;
-        height: 70%!important;
-      }
-      }
-      @media screen and (max-width: 370px) {
-        .SvgHeader{
-          width:100%;
-          height: 60%!important;
-        }
-        }
 
 
 .animation-white{
